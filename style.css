@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding-inline: 1.5rem;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1360px;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.routine-section {
+  margin-top: 1.5rem;
+}
+.routine-section .routine-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.routine-section .routine-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.routine-section .routine-header p {
+  margin-bottom: 0.5rem;
+}
+.routine-section .routine-header p span {
+  font-weight: 700;
+}
+.routine-section .routine-header h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.routine-section .table-wrapper {
+  overflow-x: auto;
+}
+.routine-section table {
+  width: 100%;
+  max-width: 900px;
+  margin-inline: auto;
+}
+.routine-section table, .routine-section th, .routine-section td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.routine-section th, .routine-section td {
+  padding: 0.5rem;
+}
+.routine-section th {
+  background-color: #1E90FF;
+  color: white;
+}
